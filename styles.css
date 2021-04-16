@@ -4,7 +4,7 @@ body, ul, li, h1, h2{
  font-family: arial;
 }
 header {
- background-color: red;
+ background-color: #df2e2e;
  padding: 20px;
  text-align: center;
  z-index: 1;
@@ -22,6 +22,7 @@ header h1{
  
 }.banner{
  position: relative;
+ margin-top: 100px;
 }
  
 .banner img{
@@ -29,15 +30,17 @@ header h1{
  width: 100%;
 }
 .banner .welcome{
- background-color: #FEB614;
+ background-color:#f63232a1;
  color:white;
  padding: 30px;
  position: absolute;
  left: 0px;
- top: 30%;
+ top: 3%;
 }
 .banner h2{
- font-size: 74px;
+ font-size: 60px;
+ text-align: center;
+ width: 100%;
 }
 .banner h2 span{
  font-size: 1.3em;
@@ -110,8 +113,9 @@ form input{
  border: 8px solid white;
 }
 footer{
-  background: #f63232;
+  background: #df2e2e;
   color: white;
   padding: 10px;
   text-align: center;
 }
+
